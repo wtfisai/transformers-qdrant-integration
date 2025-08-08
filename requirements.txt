@@ -1,7 +1,10 @@
 # Core packages
 qdrant-client>=1.6.0
 transformers>=4.53.0
-torch>=2.0.0
+torch --index-url https://download.pytorch.org/whl/cpu
+torchvision --index-url https://download.pytorch.org/whl/cpu
+torchaudio --index-url https://download.pytorch.org/whl/cpu
+python-dotenv>=1.0.0
 datasets>=2.15.0
 scikit-learn>=1.3.0
 
